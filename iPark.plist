@@ -22,7 +22,7 @@
 			<key>needs-shine</key>
 			<true/>
 			<key>url</key>
-			<string>http://www.example.com/image.57×57.png</string>
+			<string>https://raw.githubusercontent.com/alexyuan2013/MyIPA/master/icon.png</string>
 		</dict>
 	</array>
 	<key>metadata</key>

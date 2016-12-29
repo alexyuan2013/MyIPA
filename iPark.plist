@@ -1,31 +1,43 @@
-﻿<?xml version="0.8.6" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="0.8.6">
+<plist version="1.0">
 <dict>
 <key>items</key>
 <array>
-<dict>
-<key>assets</key>
-<array>
-<dict>
-<key>kind</key>
-<string>software-package</string>
-<key>url</key>
-<string>https://github.com/alexyuan2013/MyIPA/raw/master/iPark.ipa</string>
-</dict>
-</array>
-<key>metadata</key>
-<dict>
-<key>bundle-identifier</key>
-<string>NARI.iPark</string>
-<key>bundle-version</key>
-<string>0.8.6</string>
-<key>kind</key>
-<string>software</string>
-<key>title</key>
-<string>智慧园区</string>
-</dict>
-</dict>
+	<dict>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>kind</key>
+			<string>software-package</string>
+			<!-- required.  the URL of the file to download. -->
+			<key>url</key>
+			<string>https://www.qsign.cn/nari/iPark.ipa</string>
+		</dict>
+		<!-- display-image: the icon to display during download. -->
+		<dict>
+			<key>kind</key>
+			<string>display-image</string>
+			<!-- optional. icon needs shine effect applied. -->
+			<key>needs-shine</key>
+			<true/>
+			<key>url</key>
+			<string>http://www.example.com/image.57×57.png</string>
+		</dict>
+	</array>
+	<key>metadata</key>
+	<dict>
+		<!-- required -->
+		<key>bundle-identifier</key>
+		<string>NARI.iPark</string>
+		<key>bundle-version</key>
+		<string>0.8.6</string>
+		<key>kind</key>
+		<string>software</string>
+		<key>title</key>
+		<string>智慧园区</string>
+	</dict>
+	</dict>
 </array>
 </dict>
 </plist> 

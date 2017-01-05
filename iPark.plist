@@ -17,7 +17,7 @@
                
                <!-- required.  the URL of the file to download. -->
                <key>url</key>
-               <string>https://github.com/alexyuan2013/MyIPA/raw/master/iPark0.8.6.ipa</string>
+               <string>https://github.com/alexyuan2013/MyIPA/raw/master/iPark0.9.1.ipa</string>
            </dict>
            <!-- display-image: the icon to display during download. -->
            <dict>
@@ -37,7 +37,7 @@
            <string>NARI.iPark</string>
            <!-- optional (software only) -->
            <key>bundle-version</key>
-           <string>0.8.6</string>
+           <string>0.9.1</string>
            <!-- required.  the download kind. -->
            <key>kind</key>
            <string>software</string>
